@@ -1,5 +1,6 @@
 package com.epam.NewYearsGift;
 
 public abstract class Sweets {
-	int weight;
+	double weight;
+	abstract void setWeight(double weight);
 }
